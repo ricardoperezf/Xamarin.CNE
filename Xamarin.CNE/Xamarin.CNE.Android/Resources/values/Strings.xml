@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string-array name="dropdown_arraysAccesoZona">
+    <item>Elige uno:</item>
+    <item>TERRESTRE</item>
+    <item>AEREA</item>
+    <item>PLUVIAL</item>
+    <item>MARÍTIMA</item>
+  </string-array>
+</resources>
