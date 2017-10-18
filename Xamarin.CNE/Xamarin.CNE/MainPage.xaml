@@ -28,7 +28,11 @@
         <Label FontSize="13" Text="Ubicación emergencia:"/>
         <StackLayout Orientation="Horizontal">
             <Label FontSize="13" Text="Provincia: " />
-            <Picker x:Name="Provincia"/>
+            <Picker HorizontalOptions="FillAndExpand" x:Name="Provincia" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Cantón: " />
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
         </StackLayout>
         <Picker x:Name="AccesoZona" 
                 SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
