@@ -16,6 +16,11 @@ namespace Xamarin.CNE
         {
             InitializeComponent();
             TipoDeAccesoZona();
+            ObtengaFechaDelSistema();
+        }
+
+        private void ObtengaFechaDelSistema()
+        {
             fechaDelSistema.Text = DateTime.Now.ToString();
         }
 

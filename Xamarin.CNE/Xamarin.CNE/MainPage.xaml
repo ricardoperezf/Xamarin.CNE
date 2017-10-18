@@ -10,13 +10,13 @@
         </StackLayout>
     </ContentPage.Content>-->
     <StackLayout>
-        <Label FontSize="Large" Text="Comisión Nacional de Emergencias"/>
+        <Label FontSize="20" Text="Comisión Nacional de Emergencias"/>
         <StackLayout Orientation="Horizontal">
             <Label FontSize="10" Text="Comité municipal de emergencias: " 
                    HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
             <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
         </StackLayout>
-        <Label FontSize="14" Text="Informe de situación preliminar"/>
+        <Label FontSize="13" Text="Informe de situación preliminar"/>
         <StackLayout Orientation="Horizontal">
             <Label FontSize="13" Text="Presentado por: " />
             <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
