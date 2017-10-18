@@ -25,6 +25,11 @@
             <Label FontSize="13" Text="Fecha: " />
             <Label x:Name="fechaDelSistema" HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
         </StackLayout>
+        <Label FontSize="13" Text="Ubicación emergencia:"/>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Provincia: " />
+            <Picker x:Name="Provincia"/>
+        </StackLayout>
         <Picker x:Name="AccesoZona" 
                 SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
     </StackLayout>

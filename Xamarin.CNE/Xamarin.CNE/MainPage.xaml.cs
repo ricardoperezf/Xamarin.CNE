@@ -17,6 +17,18 @@ namespace Xamarin.CNE
             InitializeComponent();
             TipoDeAccesoZona();
             ObtengaFechaDelSistema();
+            TiposDeProvincias();
+        }
+
+        private void TiposDeProvincias()
+        {
+            Provincia.Items.Add("Alajuela");
+            Provincia.Items.Add("Cartago");
+            Provincia.Items.Add("Heredia");
+            Provincia.Items.Add("Guanacaste");
+            Provincia.Items.Add("Limón");
+            Provincia.Items.Add("Puntarenas");
+            Provincia.Items.Add("San José");
         }
 
         private void ObtengaFechaDelSistema()
