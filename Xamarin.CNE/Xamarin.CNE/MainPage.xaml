@@ -34,6 +34,10 @@
             <Label FontSize="13" Text="Cantón: " />
             <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
         </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Distrito: " />
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+        </StackLayout>
         <Picker x:Name="AccesoZona" 
                 SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
     </StackLayout>
