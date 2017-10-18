@@ -1,26 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Xamarin.CNE"
              x:Class="Xamarin.CNE.MainPage">
-    <ContentPage.Content>
+    <!--<ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <TextView
-            android:text="Acceso zona:"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
-            <Spinner
-            android:padding="2dp"
-            android:entries="@array/dropdown_arraysAccesoZona"
-            android:backgroundTint="#D11F08"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinnerAccesoZona" />
+            <Label Text="Acceso zona" />
+            <Picker x:Name="AccesoZona" 
+                SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
         </StackLayout>
-    </ContentPage.Content>
+    </ContentPage.Content>-->
+    <StackLayout>
+        <Label FontSize="Large" Text="Comisión Nacional de Emergencias"/>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="10" Text="Comité municipal de emergencias: " 
+                   HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+        </StackLayout>
+        <Label FontSize="14" Text="Informe de situación preliminar"/>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Presentado por: " />
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Fecha: " />
+            <Label x:Name="fechaDelSistema" HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+        </StackLayout>
+        <Picker x:Name="AccesoZona" 
+                SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
+    </StackLayout>
 </ContentPage>
