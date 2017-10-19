@@ -38,7 +38,12 @@
             <Label FontSize="13" Text="Distrito: " />
             <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
         </StackLayout>
-        <Picker x:Name="AccesoZona" 
-                SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Detalle: " />
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+        </StackLayout>
+        <Label FontSize="13" Text="Ubicación emergencia:"/>
+        <!--<Picker x:Name="AccesoZona" 
+                SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>
 </ContentPage>
