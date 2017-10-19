@@ -45,6 +45,14 @@ namespace Xamarin.CNE
             AreaAccesoZona.Items.Add("Sin daño");
             AreaAccesoZona.Items.Add("Daño parcial");
             AreaAccesoZona.Items.Add("Sin acceso");
+
+            PluvialAccesoZona.Items.Add("Sin daño");
+            PluvialAccesoZona.Items.Add("Sin acceso");
+            PluvialAccesoZona.Items.Add("Daño parcial");
+
+            MaritimaAccesoZona.Items.Add("Sin daño");
+            MaritimaAccesoZona.Items.Add("Sin acceso");
+            MaritimaAccesoZona.Items.Add("Daño parcial");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
