@@ -38,9 +38,9 @@ namespace Xamarin.CNE
 
         private void TipoDeAccesoZona()
         {
-            AccesoZona.Items.Add("Dificil");
-            AccesoZona.Items.Add("Medio");
-            AccesoZona.Items.Add("Fácil");
+            AccesoZona.Items.Add("Sin daño");
+            AccesoZona.Items.Add("Daño parcial");
+            AccesoZona.Items.Add("Sin acceso");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
