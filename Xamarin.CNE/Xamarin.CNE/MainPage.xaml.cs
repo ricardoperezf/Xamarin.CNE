@@ -15,7 +15,7 @@ namespace Xamarin.CNE
         public MainPage()
         {
             InitializeComponent();
-            TipoDeAccesoZona();
+            AccesoZona();
             ObtengaFechaDelSistema();
             TiposDeProvincias();
         }
@@ -36,16 +36,20 @@ namespace Xamarin.CNE
             fechaDelSistema.Text = DateTime.Now.ToString();
         }
 
-        private void TipoDeAccesoZona()
+        private void AccesoZona()
         {
-            AccesoZona.Items.Add("Sin daño");
-            AccesoZona.Items.Add("Daño parcial");
-            AccesoZona.Items.Add("Sin acceso");
+            TerrestreAccesoZona.Items.Add("Sin daño");
+            TerrestreAccesoZona.Items.Add("Daño parcial");
+            TerrestreAccesoZona.Items.Add("Sin acceso");
+
+            AreaAccesoZona.Items.Add("Sin daño");
+            AreaAccesoZona.Items.Add("Daño parcial");
+            AreaAccesoZona.Items.Add("Sin acceso");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
         {
-            var name = AccesoZona.Items[AccesoZona.SelectedIndex];
+            var name = TerrestreAccesoZona.Items[TerrestreAccesoZona.SelectedIndex];
             DisplayAlert(name, "Selected value", "OK");
         }
     }
