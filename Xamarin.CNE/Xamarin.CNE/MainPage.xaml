@@ -55,6 +55,10 @@
             <Label FontSize="13" Text="Pluvia: " />
             <Picker HorizontalOptions="FillAndExpand" x:Name="AccesoZona" />
         </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="13" Text="Marítima: " />
+            <Picker HorizontalOptions="FillAndExpand" x:Name="AccesoZona" />
+        </StackLayout>
         <!--<Picker x:Name="AccesoZona" 
                 SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>
