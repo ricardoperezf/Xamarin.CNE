@@ -33,6 +33,12 @@ namespace Xamarin.CNE
 
             CoordinacionInstitucional.Items.Add("Si");
             CoordinacionInstitucional.Items.Add("No");
+
+            Remocion.Items.Add("Si");
+            Remocion.Items.Add("No");
+
+            OtroTipoDeAfectación.Items.Add("Si");
+            OtroTipoDeAfectación.Items.Add("No");
         }
 
         private void TiposDeAfectacion()

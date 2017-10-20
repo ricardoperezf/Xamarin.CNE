@@ -112,6 +112,18 @@
                 <Label FontSize="13" Text="Coordinación institucional: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="CoordinacionInstitucional" />
             </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Remoción: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="Remocion" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Otro: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="OtroTipoDeAfectación" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Cantidad viviendas: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>
