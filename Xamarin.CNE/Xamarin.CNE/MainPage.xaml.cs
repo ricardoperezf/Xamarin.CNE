@@ -22,6 +22,22 @@ namespace Xamarin.CNE
             TiposDeAnalisisDeNecesidadesHumanos();
             TiposDeAnalisisDeNecesidadesMateriales();
             TiposDeAnalisisDeNecesidadesEconomico();
+            TiposDeNecesidades();
+        }
+
+        private void TiposDeNecesidades()
+        {
+            NecesidadesHumanos.Items.Add("Normal");
+            NecesidadesHumanos.Items.Add("Medio");
+            NecesidadesHumanos.Items.Add("Urgente");
+
+            NecesidadesMateriales.Items.Add("Normal");
+            NecesidadesMateriales.Items.Add("Medio");
+            NecesidadesMateriales.Items.Add("Urgente");
+
+            NecesidadesEconomico.Items.Add("Normal");
+            NecesidadesEconomico.Items.Add("Medio");
+            NecesidadesEconomico.Items.Add("Urgente");
         }
 
         private void TiposDeAnalisisDeNecesidadesEconomico()

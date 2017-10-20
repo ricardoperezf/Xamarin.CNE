@@ -171,6 +171,19 @@
                 <Label FontSize="13" Text="Económico: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="AnalisisDeNecesidadesEconomico" />
             </StackLayout>
+            <Label FontSize="14" Text="necesidades:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Humanos: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="NecesidadesHumanos" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Materiales: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="NecesidadesMateriales" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Económico: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="NecesidadesEconomico" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>
