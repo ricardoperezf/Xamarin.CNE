@@ -27,6 +27,12 @@ namespace Xamarin.CNE
 
             AislarZonaAfectada.Items.Add("Si");
             AislarZonaAfectada.Items.Add("No");
+
+            Evacuacion.Items.Add("Si");
+            Evacuacion.Items.Add("No");
+
+            CoordinacionInstitucional.Items.Add("Si");
+            CoordinacionInstitucional.Items.Add("No");
         }
 
         private void TiposDeAfectacion()
