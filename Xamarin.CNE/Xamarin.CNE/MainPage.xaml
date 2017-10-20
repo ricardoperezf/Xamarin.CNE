@@ -65,6 +65,27 @@
                 <Label FontSize="14" Text="Instituciones presentes: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="InstitucionesPresentes" />
             </StackLayout>
+            <Label FontSize="13" Text="Población afectada:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Enfermos: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Aislados: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Heridos: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Desaparecidos: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Movilizados: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>
