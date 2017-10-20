@@ -57,6 +57,10 @@
                 <Label FontSize="14" Text="Evento: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="TipoDeEvento" />
             </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="14" Text="Condiciones climáticas: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="CondicionesClimaticas" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>

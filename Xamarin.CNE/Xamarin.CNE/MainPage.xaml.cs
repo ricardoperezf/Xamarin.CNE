@@ -19,6 +19,17 @@ namespace Xamarin.CNE
             ObtengaFechaDelSistema();
             TiposDeProvincias();
             TiposDeEventos();
+            TiposDeCondicionesClimaticas();
+        }
+
+        private void TiposDeCondicionesClimaticas()
+        {
+            CondicionesClimaticas.Items.Add("Despejado");
+            CondicionesClimaticas.Items.Add("Nublado");
+            CondicionesClimaticas.Items.Add("Temperatura");
+            CondicionesClimaticas.Items.Add("Lluvioso");
+            CondicionesClimaticas.Items.Add("Lluvia torrencial");
+            CondicionesClimaticas.Items.Add("Vientos");
         }
 
         private void ObtengaFechaDelSistema()
