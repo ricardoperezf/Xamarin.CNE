@@ -23,6 +23,14 @@ namespace Xamarin.CNE
             TiposDeAnalisisDeNecesidadesMateriales();
             TiposDeAnalisisDeNecesidadesEconomico();
             TiposDeNecesidades();
+            TipoDeSituacionActualDelEvento();
+        }
+
+        private void TipoDeSituacionActualDelEvento()
+        {
+            SituacionActualDelEvento.Items.Add("Controlado");
+            SituacionActualDelEvento.Items.Add("En progreso");
+            SituacionActualDelEvento.Items.Add("Descartado");
         }
 
         private void TiposDeNecesidades()

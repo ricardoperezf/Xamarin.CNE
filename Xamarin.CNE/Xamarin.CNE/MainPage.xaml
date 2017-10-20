@@ -184,6 +184,12 @@
                 <Label FontSize="13" Text="Económico: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="NecesidadesEconomico" />
             </StackLayout>
+            <Label FontSize="13" Text="Acciones:"/>
+            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Situación actual del evento: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="SituacionActualDelEvento" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>
