@@ -124,6 +124,25 @@
                 <Label FontSize="13" Text="Cantidad viviendas: " />
                 <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
             </StackLayout>
+            <Label FontSize="14" Text="Albergues:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Cantidad albergues: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Cantidad personas: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Características albergues: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="CaracteristicasAlbergues" />
+            </StackLayout>
+            <Label FontSize="14" Text="Líneas vitales:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Acueductos: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="Acueductos" />
+            </StackLayout>
+
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>

@@ -10,7 +10,7 @@ namespace Xamarin.CNE
         public MainPage()
         {
             InitializeComponent();
-            AccesoZona();
+            TiposDeAccesoZonaYLineasVitales();
             ObtengaFechaDelSistema();
             TiposDeProvincias();
             TiposDeEventos();
@@ -18,6 +18,14 @@ namespace Xamarin.CNE
             TiposDeInstitucionesPresentes();
             TiposDeAfectacion();
             TipoDeViviendasAfectadas();
+            TiposDeAlbergues();
+        }
+
+        private void TiposDeAlbergues()
+        {
+            CaracteristicasAlbergues.Items.Add("Excelentes");
+            CaracteristicasAlbergues.Items.Add("Regulares");
+            CaracteristicasAlbergues.Items.Add("Inadecuadas");
         }
 
         private void TipoDeViviendasAfectadas()
@@ -101,7 +109,7 @@ namespace Xamarin.CNE
         }
 
 
-        private void AccesoZona()
+        private void TiposDeAccesoZonaYLineasVitales()
         {
             TerrestreAccesoZona.Items.Add("Sin daño");
             TerrestreAccesoZona.Items.Add("Daño parcial");
@@ -118,6 +126,10 @@ namespace Xamarin.CNE
             MaritimaAccesoZona.Items.Add("Sin daño");
             MaritimaAccesoZona.Items.Add("Sin acceso");
             MaritimaAccesoZona.Items.Add("Daño parcial");
+
+            Acueductos.Items.Add("Sin daño");
+            Acueductos.Items.Add("Sin acceso");
+            Acueductos.Items.Add("Daño parcial");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
