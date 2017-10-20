@@ -18,6 +18,26 @@ namespace Xamarin.CNE
             AccesoZona();
             ObtengaFechaDelSistema();
             TiposDeProvincias();
+            TiposDeEventos();
+        }
+
+        private void ObtengaFechaDelSistema()
+        {
+            fechaDelSistema.Text = DateTime.Now.ToString();
+        }
+        private void TiposDeEventos()
+        {
+            TipoDeEvento.Items.Add("Terremoto");
+            TipoDeEvento.Items.Add("Inundación");
+            TipoDeEvento.Items.Add("Incendio");
+            TipoDeEvento.Items.Add("Erupción volcánica");
+            TipoDeEvento.Items.Add("Deslizamiento");
+            TipoDeEvento.Items.Add("Avalancha");
+            TipoDeEvento.Items.Add("Accidentes");
+            TipoDeEvento.Items.Add("Tormenta");
+            TipoDeEvento.Items.Add("Rescate");
+            TipoDeEvento.Items.Add("Contaminación");
+            TipoDeEvento.Items.Add("Otro");
         }
 
         private void TiposDeProvincias()
@@ -31,10 +51,6 @@ namespace Xamarin.CNE
             Provincia.Items.Add("San José");
         }
 
-        private void ObtengaFechaDelSistema()
-        {
-            fechaDelSistema.Text = DateTime.Now.ToString();
-        }
 
         private void AccesoZona()
         {
