@@ -9,57 +9,59 @@
                 SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>
         </StackLayout>
     </ContentPage.Content>-->
-    <StackLayout>
-        <Label FontSize="20" Text="Comisión Nacional de Emergencias"/>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="10" Text="Comité municipal de emergencias: " 
-                   HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
-            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <Label FontSize="13" Text="Informe de situación preliminar"/>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Presentado por: " />
-            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Fecha: " />
-            <Label x:Name="fechaDelSistema" HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <Label FontSize="13" Text="Ubicación emergencia:"/>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Provincia: " />
-            <Picker HorizontalOptions="FillAndExpand" x:Name="Provincia" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Cantón: " />
-            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Distrito: " />
-            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Detalle: " />
-            <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
-        </StackLayout>
-        <Label FontSize="13" Text="Acceso zona:"/>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Terrestre: " />
-            <Picker HorizontalOptions="FillAndExpand" x:Name="TerrestreAccesoZona" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Área: " />
-            <Picker HorizontalOptions="FillAndExpand" x:Name="AreaAccesoZona" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Pluvial: " />
-            <Picker HorizontalOptions="FillAndExpand" x:Name="PluvialAccesoZona" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label FontSize="13" Text="Marítima: " />
-            <Picker HorizontalOptions="FillAndExpand" x:Name="MaritimaAccesoZona" />
-        </StackLayout>
-        <!--<Picker x:Name="AccesoZona" 
-                SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
+    <ScrollView>
+        <StackLayout>
+            <Label FontSize="20" Text="Comisión Nacional de Emergencias"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="10" Text="Comité municipal de emergencias: " 
+                        HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <Label FontSize="13" Text="Informe de situación preliminar"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Presentado por: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Fecha: " />
+                <Label x:Name="fechaDelSistema" HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <Label FontSize="13" Text="Ubicación emergencia:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Provincia: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="Provincia" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Cantón: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Distrito: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Detalle: " />
+                <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
+            </StackLayout>
+            <Label FontSize="13" Text="Acceso zona:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Terrestre: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="TerrestreAccesoZona" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Área: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="AreaAccesoZona" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Pluvial: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="PluvialAccesoZona" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Marítima: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="MaritimaAccesoZona" />
+            </StackLayout>
+            <!--<Picker x:Name="AccesoZona" 
+                    SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>
+    </ScrollView>
 </ContentPage>
