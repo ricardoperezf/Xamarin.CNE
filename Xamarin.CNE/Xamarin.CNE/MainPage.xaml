@@ -101,6 +101,10 @@
                 <Label FontSize="13" Text="Valoración - inspección: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="ValoracionOInspeccion" />
             </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Aislar zona afectada: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="AislarZonaAfectada" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>

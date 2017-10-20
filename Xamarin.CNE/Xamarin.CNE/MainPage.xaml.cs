@@ -25,6 +25,8 @@ namespace Xamarin.CNE
             ValoracionOInspeccion.Items.Add("Si");
             ValoracionOInspeccion.Items.Add("No");
 
+            AislarZonaAfectada.Items.Add("Si");
+            AislarZonaAfectada.Items.Add("No");
         }
 
         private void TiposDeAfectacion()
