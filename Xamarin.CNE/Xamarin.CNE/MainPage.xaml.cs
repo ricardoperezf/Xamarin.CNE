@@ -142,6 +142,10 @@ namespace Xamarin.CNE
             Telecomunicaciones.Items.Add("Sin daño");
             Telecomunicaciones.Items.Add("Sin acceso");
             Telecomunicaciones.Items.Add("Daño parcial");
+
+            Salud.Items.Add("Sin daño");
+            Salud.Items.Add("Sin acceso");
+            Salud.Items.Add("Daño parcial");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
