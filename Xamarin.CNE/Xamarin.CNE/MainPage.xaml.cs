@@ -17,6 +17,14 @@ namespace Xamarin.CNE
             TiposDeCondicionesClimaticas();
             TiposDeInstitucionesPresentes();
             TiposDeAfectacion();
+            TipoDeViviendasAfectadas();
+        }
+
+        private void TipoDeViviendasAfectadas()
+        {
+            ValoracionOInspeccion.Items.Add("Si");
+            ValoracionOInspeccion.Items.Add("No");
+
         }
 
         private void TiposDeAfectacion()

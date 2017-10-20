@@ -90,10 +90,16 @@
                 <Label FontSize="13" Text="Muertos: " />
                 <Entry HorizontalOptions="FillAndExpand" FontSize="11" Text=""/>
             </StackLayout>
-            <Label FontSize="13" Text="Viviendas afectadas:"/>
+            <Label FontSize="14" Text="Viviendas afectadas:"/>
             <StackLayout Orientation="Horizontal">
                 <Label FontSize="13" Text="Tipo de afectación: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="TipoDeAfectacion" />
+            </StackLayout>
+            <Label FontSize="13" Text="Acciones necesarias:"/>
+            <Label FontSize="13" Text="Valoración - inspección: " />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Valoración - inspección: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="ValoracionOInspeccion" />
             </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
