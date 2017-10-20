@@ -146,7 +146,14 @@
                 <Label FontSize="13" Text="Alcantarillados: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="Alcantarrillados" />
             </StackLayout>
-
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Electricidad: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="Electricidad" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="13" Text="Telecomunicaciones: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="Telecomunicaciones" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>

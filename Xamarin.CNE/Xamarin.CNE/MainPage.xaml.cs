@@ -131,9 +131,17 @@ namespace Xamarin.CNE
             Acueductos.Items.Add("Sin acceso");
             Acueductos.Items.Add("Daño parcial");
 
-            Alcantarrillados.Add("Sin daño");
-            Alcantarrillados.Add("Sin acceso");
-            Alcantarrillados.Add("Daño parcial");
+            Alcantarrillados.Items.Add("Sin daño");
+            Alcantarrillados.Items.Add("Sin acceso");
+            Alcantarrillados.Items.Add("Daño parcial");
+
+            Electricidad.Items.Add("Sin daño");
+            Electricidad.Items.Add("Sin acceso");
+            Electricidad.Items.Add("Daño parcial");
+
+            Telecomunicaciones.Items.Add("Sin daño");
+            Telecomunicaciones.Items.Add("Sin acceso");
+            Telecomunicaciones.Items.Add("Daño parcial");
         }
 
         private void AccesoZona_OnSelectedIndexChanged(object sender, EventArgs e)
