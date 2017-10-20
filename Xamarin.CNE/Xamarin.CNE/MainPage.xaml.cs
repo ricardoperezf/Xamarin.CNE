@@ -19,6 +19,41 @@ namespace Xamarin.CNE
             TiposDeAfectacion();
             TipoDeViviendasAfectadas();
             TiposDeAlbergues();
+            TiposDeAnalisisDeNecesidadesHumanos();
+            TiposDeAnalisisDeNecesidadesMateriales();
+            TiposDeAnalisisDeNecesidadesEconomico();
+        }
+
+        private void TiposDeAnalisisDeNecesidadesEconomico()
+        {
+            AnalisisDeNecesidadesEconomico.Items.Add("Crédito");
+            AnalisisDeNecesidadesEconomico.Items.Add("Alquiler equipo");
+            AnalisisDeNecesidadesEconomico.Items.Add("Apoyo IMAS");
+            AnalisisDeNecesidadesEconomico.Items.Add("Otro");
+        }
+
+        private void TiposDeAnalisisDeNecesidadesMateriales()
+        {
+            AnalisisDeNecesidadesMateriales.Items.Add("Valoración - inspección");
+            AnalisisDeNecesidadesMateriales.Items.Add("Equipo pesado");
+            AnalisisDeNecesidadesMateriales.Items.Add("Equipo especial");
+            AnalisisDeNecesidadesMateriales.Items.Add("Aislar zona afectada");
+            AnalisisDeNecesidadesMateriales.Items.Add("Evacuación");
+            AnalisisDeNecesidadesMateriales.Items.Add("Coordinación institucional");
+            AnalisisDeNecesidadesMateriales.Items.Add("Evacuación");
+            AnalisisDeNecesidadesMateriales.Items.Add("Otro");
+        }
+
+        private void TiposDeAnalisisDeNecesidadesHumanos()
+        {
+            AnalisisDeNecesidadesHumanos.Items.Add("Valoración - inspección");
+            AnalisisDeNecesidadesHumanos.Items.Add("Colchones - cobijas");
+            AnalisisDeNecesidadesHumanos.Items.Add("Alimentos");
+            AnalisisDeNecesidadesHumanos.Items.Add("Aislar zona afectada");
+            AnalisisDeNecesidadesHumanos.Items.Add("Evacuación");
+            AnalisisDeNecesidadesHumanos.Items.Add("Coordinación institucional");
+            AnalisisDeNecesidadesHumanos.Items.Add("Evacuación");
+            AnalisisDeNecesidadesHumanos.Items.Add("Otro");
         }
 
         private void TiposDeAlbergues()
