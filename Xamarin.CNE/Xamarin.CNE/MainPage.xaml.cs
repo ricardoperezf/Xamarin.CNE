@@ -20,6 +20,19 @@ namespace Xamarin.CNE
             TiposDeProvincias();
             TiposDeEventos();
             TiposDeCondicionesClimaticas();
+            TiposDeInstitucionesPresentes();
+        }
+
+        private void TiposDeInstitucionesPresentes()
+        {
+            InstitucionesPresentes.Items.Add("CME");
+            InstitucionesPresentes.Items.Add("Fuerza Pública");
+            InstitucionesPresentes.Items.Add("Transito");
+            InstitucionesPresentes.Items.Add("Bomberos");
+            InstitucionesPresentes.Items.Add("Cruz Roja");
+            InstitucionesPresentes.Items.Add("Otra");
+            InstitucionesPresentes.Items.Add("Nignunas");
+
         }
 
         private void TiposDeCondicionesClimaticas()

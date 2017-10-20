@@ -61,6 +61,10 @@
                 <Label FontSize="14" Text="Condiciones climáticas: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="CondicionesClimaticas" />
             </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="14" Text="Instituciones presentes: " />
+                <Picker HorizontalOptions="FillAndExpand" x:Name="InstitucionesPresentes" />
+            </StackLayout>
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
     </StackLayout>
