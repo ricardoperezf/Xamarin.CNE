@@ -190,6 +190,7 @@
                 <Label FontSize="13" Text="Situación actual del evento: " />
                 <Picker HorizontalOptions="FillAndExpand" x:Name="SituacionActualDelEvento" />
             </StackLayout>
+            
             <!--<Picker x:Name="AccesoZona" 
                     SelectedIndexChanged="AccesoZona_OnSelectedIndexChanged"/>-->
         </StackLayout>
